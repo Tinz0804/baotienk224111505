@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phương trình bậc 1</string>
+    <string name="Title_app">Phương trình bậc 1</string>
+    <string name="Title_coefficient_a">Hệ số a</string>
+    <string name="Title_coefficient_b">Hệ số b</string>
+    <string name="Title_solution">Giải</string>
+    <string name="Title_next">Tiếp</string>
+    <string name="Title_result">Kết quả</string>
+    <string name="Title_exits">Thoát</string>
+    <string name="Title_infinity">Vô số nghiệm</string>
+    <string name="Title_nosolution">Vô nghiệm</string>
+    <string name="title_txtr">Kết quả</string>
+</resources>

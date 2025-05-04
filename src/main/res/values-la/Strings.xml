@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aequatio primi gradus</string>
+    <string name="Title_app">Aequatio primi gradus</string>
+    <string name="Title_coefficient_a">"Coefficientia a "</string>
+    <string name="Title_coefficient_b">"Coefficientia b "</string>
+    <string name="Title_solution">"Solutio "</string>
+    <string name="Title_next">"Proximus "</string>
+    <string name="Title_result">"Eventus "</string>
+    <string name="Title_exits">"Exitus "</string>
+    <string name="Title_infinity">Infinitas</string>
+    <string name="Title_nosolution">"Nulla solutio "</string>
+    <string name="title_txtr">"Eventus "</string>
+</resources>

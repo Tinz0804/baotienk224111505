@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title_app"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/txta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title_coefficient_a" />
+
+    <EditText
+        android:id="@+id/edtcoefficienta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title_coefficient_b" />
+
+    <EditText
+        android:id="@+id/edtcoefficientb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="do_solution"
+            android:id="@+id/btnsolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Title_solution" />
+
+        <Button
+            android:onClick="do_next"
+            android:id="@+id/btnnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Title_next" />
+
+        <Button
+            android:onClick="do_exit"
+            android:id="@+id/btnexit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Title_exits" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtr"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#E2B3C4"
+        android:text="@string/Title_result" />
+
+    <Button
+        android:id="@+id/btnChangeLang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Title_changlange"
+        android:onClick="do_changelang"
+        android:layout_gravity="center_horizontal" />/>
+
+</LinearLayout>
