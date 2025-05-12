@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmployeeManagementActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- First TableRow -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- First Column -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imgemployeehealthcare"
+                        android:layout_width="128dp"
+                        android:layout_height="114dp"
+                        app:srcCompat="@mipmap/ic_health" />
+
+                    <TextView
+                        android:id="@+id/txtemployeehealthcare"
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_employee_healthcare"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <!-- Second Column -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:onClick="do_open_employee_healthcare"
+                        android:id="@+id/imgemployeesalary"
+                        android:layout_width="match_parent"
+                        android:layout_height="115dp"
+                        app:srcCompat="@mipmap/ic_employee_salary" />
+
+                    <TextView
+                        android:id="@+id/txtemployeesalary"
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_employee_salary"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+                <!-- Third Column (currently empty) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+            </TableRow>
+
+            <!-- Additional Rows (Added content to ensure scroll) -->
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 1" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 2" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 3" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 4" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 5" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 6" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 7" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 8" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 9" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 10" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 1" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 2" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 3" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 4" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 5" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 6" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 7" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 8" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 9" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 10" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 1" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 2" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 3" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 4" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 5" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 6" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 7" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 8" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 9" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 10" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 1" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 2" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 3" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 4" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 5" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 6" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 7" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 8" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 9" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 10" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 6" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 7" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 8" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 9" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 10" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 1" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 2" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 3" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 4" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 5" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 6" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 7" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 8" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 9" /></TableRow>
+            <TableRow><TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Some Content 10" /></TableRow>
+
+        </TableLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>
